@@ -30,14 +30,14 @@ Tampilan Setelah memasukkan 2 kategori bantuan dalam 1 donatur <br />
 ![Screenshot (360)](https://user-images.githubusercontent.com/26424136/82191616-f95d5980-991c-11ea-9ffd-165e409f4cfe.png)
 
 - Fitur Pencarian (berdasarkan Kategori)
-Disini saya melakukan pencarian dengan `keyword Uang Tunai`
+Disini saya melakukan pencarian dengan <b> keyword `Uang Tunai` </b>
 ![Screenshot (356)](https://user-images.githubusercontent.com/26424136/82190814-ccf50d80-991b-11ea-851d-cc1988ef2ad3.png)
 
 - Fitur Show
 Fitur ini digunakan untuk melihat detail donasi
-1. Menampilkan 2 kategori bantuan <br />
+1. Menampilkan 1 kategori bantuan <br />
 ![Screenshot (357)](https://user-images.githubusercontent.com/26424136/82190818-ce263a80-991b-11ea-852b-14fff9025f37.png) <br />
 
-2. Menampilkan 1 kategori bantuan <br />
+2. Menampilkan 2 kategori bantuan <br />
 ![Screenshot (361)](https://user-images.githubusercontent.com/26424136/82191622-fb271d00-991c-11ea-8495-ad8cf67d0ef4.png)
 

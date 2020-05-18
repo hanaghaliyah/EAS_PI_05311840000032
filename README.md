@@ -33,7 +33,7 @@ Tampilan Setelah memasukkan 2 kategori bantuan dalam 1 donatur <br />
 Disini saya melakukan pencarian dengan <b> keyword `Uang Tunai` </b>
 ![Screenshot (356)](https://user-images.githubusercontent.com/26424136/82190814-ccf50d80-991b-11ea-851d-cc1988ef2ad3.png)
 
-- Fitur Show
+- Fitur Show <br />
 Fitur ini digunakan untuk melihat detail donasi
 1. Menampilkan 1 kategori bantuan <br />
 ![Screenshot (357)](https://user-images.githubusercontent.com/26424136/82190818-ce263a80-991b-11ea-852b-14fff9025f37.png) <br />

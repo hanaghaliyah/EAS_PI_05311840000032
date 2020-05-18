@@ -7,6 +7,7 @@ Pada tugas kali ini kami diminta untuk membuat website berbasis MVC sebagai temp
 
 #### Database
 Saya menggunakan database `donasi`, dimana dalam database tersebut terdapat 1 tabel yaitu tabel `transaksi`. tabel ini digunakan untuk menyimpan data donasi. Untuk kolomnya terdiri dari, ID transaksi, nama, Nama Bantuan, Keterangan, Gender, dan Waktu transaksi.
+![Screenshot (362)](https://user-images.githubusercontent.com/26424136/82192792-a8e6fb80-991e-11ea-9710-68839cdbc62d.png)
 
 ### Berikut adalah penjelasan fitur dari website Bantuan Pandemi COVID19 
 1. Home

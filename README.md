@@ -3,7 +3,7 @@
 - NRP: 05311840000032
 
 ### Website Bantuan Pandemi COVID19 
-Pada tugas kali ini kami diminta untuk membuat website berbasis MVC sebagai tempat donasi bagi bencana pandemi Covid-19. Website ini akan memudahkan donatur untuk melakukan `Donasi` yang diinginkan. Selain itu donatur juga bisa melihat `Rekap Donasi` penyumbang yang tertera pada opsi lihat sumbangan
+Pada tugas kali ini kami diminta untuk membuat website berbasis MVC sebagai tempat donasi bagi bencana pandemi Covid-19. Website ini akan memudahkan donatur untuk melakukan `Donasi` yang diinginkan. Selain itu donatur juga bisa melihat `Rekap Donasi` penyumbang yang tertera pada opsi Rekap Donasi
 
 #### Database
 Saya menggunakan database `bantuan`, dimana dalam database tersebut terdapat 1 tabel yaitu tabel `transaksi`. tabel ini digunakan untuk menyimpan data donasi. Untuk kolomnya terdiri dari, ID transaksi, Nama Penyumbang, Nama Bantuan, Keterangan, Gender, dan time.

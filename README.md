@@ -24,8 +24,8 @@ Pada halaman ini donatur menginputkan donasi. Donatur diminta untuk memasukkan n
 ![Capture](https://user-images.githubusercontent.com/26424136/82191598-f6626900-991c-11ea-9c1b-fcd27434ba1f.PNG)
 
 #### 3. Rekap Donasi 
-Pada halaman ini, donatur dapat melihat list donasi pada website tersebut.
-![Screenshot (355)](https://user-images.githubusercontent.com/26424136/82190803-c9fa1d00-991b-11ea-812b-a38c81660a4e.png <br />
+Pada halaman ini, donatur dapat melihat list donasi pada website tersebut. <br />
+![Screenshot (355)](https://user-images.githubusercontent.com/26424136/82190803-c9fa1d00-991b-11ea-812b-a38c81660a4e.png) <br />
 Tampilan Setelah memasukkan 2 kategori bantuan dalam 1 donatur <br />
 ![Screenshot (360)](https://user-images.githubusercontent.com/26424136/82191616-f95d5980-991c-11ea-9ffd-165e409f4cfe.png)
 

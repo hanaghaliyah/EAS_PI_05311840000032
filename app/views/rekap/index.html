@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}Donatur{% endblock %}
+
+{% block body %}
+
+
+
+<div class="container mt-4">
+    <h1>DONASI</h1>
+    
+    <div class="row">
+        <div class="col-8 mt-4">
+            <!-- Button trigger modal
+            <button type="button" class="btn btn-primary tombolTambahData" data-toggle="modal" data-target="#formModal">
+                Jadi Donatur Sekarang !
+            </button> -->
+            
+            <div class="row">
+                <div class="col-8">
+                    {{ flash.flash() }}
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <form action="{{ BASE_URL }}/rekap/search" method="post">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Cari Kategori Bantuan"  id="keyword" name="keyword">
+                            <div class="input-group-append">
+                              <button class="btn btn-primary" type="submit">Cari</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        
+            <div class="table-responsive">
+                <h1>Data Donasi Kategori Pandemi COVID</h1>
+                <table class="table table-inbox mydatatable">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Donatur</th>
+                            <th>Bantuan</th>
+                            <th>Keterangan</th>
+                            <th>Jam</th>
+                            <th>Show</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            
+                            {% for transaksi in transaksis %}
+                            <tr>
+                                <td>{{ transaksi['id_transaksi'] }}</td>   
+                                <td>{{ transaksi['nama_penyumbang'] }}</td>
+                                <td>{{ transaksi['nama_bantuan'] }}</td>
+                                <td>{{ transaksi['keterangan'] }}</td>
+                                <td>{{ transaksi['time'] }}</td>
+                                <td><a href="{{ BASE_URL }}/rekap/show/{{ transaksi['id_transaksi'] }}" class="badge badge-primary float-right ml-1">show</a></td>
+                            </tr>   
+                             {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

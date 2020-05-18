@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+
+{% block title %}Transaksi{% endblock %}
+
+{% block body %}
+
+<div class="container mt-4">
+    <h1>DONASI</h1>
+    
+    <div class="row">
+        <div class="col-8 mt-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary tombolTambahTransaksi" data-toggle="modal" data-target="#formModal">
+                Transaksi!
+            </button>
+            
+            <h3>Daftar Transaksi Bantuan Pandemi</h3>
+        
+            <div class="row">
+                <div class="col-8">
+                    {{ flash.flash() }}
+                </div>
+            </div>
+
+        </div>        
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="judulModal" aria-hidden="true">
+    <form action="{{ BASE_URL }}/penyumbang/add" method="POST">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="judulModal">Form Transaksi untuk Pandemi COVID</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <input type="hidden" name="id_transaksi" id="id_transaksi">
+
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control" id="id_orang" name="id_orang"
+                            placeholder="Masukkan nama anda">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Jenis Kelamin</label>
+                        <select class="form-control" id="gender" name="gender">
+                          <option value="Perempuan">Perempuan</option>
+                          <option value="Laki-laki">Laki-laki</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="bantuan">Bantuan</label> <br>
+                        <label><input type="checkbox" id="cb_uang" name="check[]" value="Uang Tunai"> Uang Tunai</label> <br>
+                        <div id="ket_uang">
+                            <label for="keterangan">Keterangan</label>
+                            <input type="text" class="form-control" id="ketBantuan" name="ket[]"
+                                placeholder="Masukkan nominal uang anda"><br>
+                        </div>
+                        <label><input type="checkbox" id="cb_alkes" name="check[]" value="Alat Kesehatan"> Alat Kesehatan</label> <br>
+                        <div id="ket_alkes">
+                            <label for="keterangan">Keterangan</label>
+                            <input type="text" class="form-control" id="ketBantuan" name="ket[]"
+                                placeholder="Masukkan Bantuan alat kesehatan anda"><br>
+                        </div>   
+                        <label><input type="checkbox" id="cb_obat" name="check[]" value="Obat"> Obat</label> <br>
+                        <div id="ket_obat">
+                            <label for="keterangan">Keterangan</label>
+                            <input type="text" class="form-control" id="ketBantuan" name="ket[]"
+                                placeholder="Masukkan Bantuan Obat anda"><br>
+                        </div>    
+                        <label><input type="checkbox" id="cb_kebpok" name="check[]" value="Kebutuhan Pokok"> Kebutuhan Pokok</label> <br>
+                        <div id="ket_kebpok">
+                            <label for="keterangan">Keterangan</label>
+                            <input type="text" class="form-control" id="ketBantuan" name="ket[]"
+                                placeholder="Masukkan Bantuan Kebutuhan Pokok anda">
+                        </div>        
+                    </div>                  
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal Donasi</button>
+                    <button type="submit" class="btn btn-primary" name="save">Mulai Donasi</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

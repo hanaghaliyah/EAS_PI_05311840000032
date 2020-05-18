@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+ 
+{% block title %}Show Donatur{% endblock %}
+ 
+{% block body %}
+ 
+<div class="container mt-4">
+    <h1>Show Donatur COVID19</h1>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{ transaksi['id_orang'] }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted"> {{ transaksi['id_bantuan'] }}</h6>
+            <!-- <p class="text">Tempat: {{ agenda['place'] }}</p>
+            <p class="text">{{ agenda['description'] }}</p> -->
+            <a href="{{ BASE_URL }}/transaksi">Kembali</a>
+        </div>
+    </div>
+</div>
+ 
+{% endblock %}

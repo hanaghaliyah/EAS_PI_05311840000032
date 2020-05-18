@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+ 
+{% block title %}Home{% endblock %}
+ 
+{% block body %}
+ 
+<center>
+<div class="container mt-4">
+    <div class="jumbotron">
+        <h1 class="display-4">Bantuan Pandemi Covid</h1>
+        <p class="lead">Selamatkan Nyawa Sesama! #BersamaLawanCorona</p>
+        <p><b>Donasi Sekarang !</b><br>
+            <form method="post" action="{{ BASE_URL }}/transaksi">
+                <button type="submit">Mulai Donasi</button>
+            </form>
+        </p>
+    </div>
+</div>
+</center>
+
+{% endblock %}

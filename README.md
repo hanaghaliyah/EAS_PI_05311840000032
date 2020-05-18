@@ -10,11 +10,11 @@ Saya menggunakan database `donasi`, dimana dalam database tersebut terdapat 1 ta
 ![Screenshot (362)](https://user-images.githubusercontent.com/26424136/82192792-a8e6fb80-991e-11ea-9710-68839cdbc62d.png)
 
 ### Berikut adalah penjelasan fitur dari website Bantuan Pandemi COVID19 
-#### Home
+#### 1. Home
 Berikut adalah halaman `HOME` website 
 ![Screenshot (353)](https://user-images.githubusercontent.com/26424136/82189209-39224200-9919-11ea-8a74-06f1af3e1830.png)
 
-#### Donasi
+#### 2. Donasi
 Pada halaman ini donatur menginputkan donasi. Donatur diminta untuk memasukkan nama, gender, mencentang kategori bantuan yang dipilih, kemudian menginputkan bantuan dan jumlah yang akan didonasikan pada kolom keterangan. 
 - Donatur menginputkan 1 kategori bantuan
 ![Screenshot (354)](https://user-images.githubusercontent.com/26424136/82189216-3b849c00-9919-11ea-93a5-edeb870e3591.png)
@@ -23,7 +23,7 @@ Pada halaman ini donatur menginputkan donasi. Donatur diminta untuk memasukkan n
 - Notif jika donasi berhasil di inputkan
 ![Capture](https://user-images.githubusercontent.com/26424136/82191598-f6626900-991c-11ea-9c1b-fcd27434ba1f.PNG)
 
-#### Rekap Donasi 
+#### 3. Rekap Donasi 
 Pada halaman ini, donatur dapat melihat list donasi pada website tersebut.
 ![Screenshot (355)](https://user-images.githubusercontent.com/26424136/82190803-c9fa1d00-991b-11ea-812b-a38c81660a4e.png <br />
 Tampilan Setelah memasukkan 2 kategori bantuan dalam 1 donatur <br />

@@ -20,7 +20,7 @@ Pada halaman ini donatur menginputkan donasi. Donatur diminta untuk memasukkan n
 ![Screenshot (354)](https://user-images.githubusercontent.com/26424136/82189216-3b849c00-9919-11ea-93a5-edeb870e3591.png)
 - Donatur menginputkan 2 kategori bantuan
 ![Screenshot (358)](https://user-images.githubusercontent.com/26424136/82191606-f7939600-991c-11ea-9541-5861152543cd.png)
-- Notif jika donasi berhasil di inputkan
+- Notif jika donasi berhasil di inputkan <br />
 ![Capture](https://user-images.githubusercontent.com/26424136/82191598-f6626900-991c-11ea-9c1b-fcd27434ba1f.PNG)
 
 #### 3. Rekap Donasi 
